@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TinderVote</title>
+  </head>
+  <body>
+    <div>Your auth token is:</div>
+    <div><code id="auth-token"></code></div>
+
+
+    <script type="text/javascript">
+      const hash = window.location.hash
+      const parts = hash.split('&')
+      const part = parts.find((part) => part.startsWith('access_token='))
+      if (!part) {
+        document.querySelector('#auth-token').innerHTML = 'Could not find auth token :('
+      }
+      const token = part.substring(13)
+      document.querySelector('#auth-token').innerHTML = token
+    </script>
+  </body>
+</html>
