@@ -1,4 +1,13 @@
-#
+# Get out the Vote with Tinder
+
+To get started, we need two pieces of info from you:
+
+1. Your Facebook ID
+2. Your access token
+
+## 1. Get your Facebook ID
+
+Go to https://findmyfbid.in/ and enter your Facebook profile URL. Copy the number that it returns and send it to us.
 
 ## Get your access token using our script (Mac users only)
 
@@ -7,9 +16,11 @@
 
 2. Copy and paste the following command into your terminal, and press Enter.
 
-    curl -LOk https://s3.us-east-2.amazonaws.com/tindervote-startup/tindervote-startup-master.zip && unzip tindervote-startup-master.zip && cd tindervote-startup-master && sh install.sh
+```sh
+curl -LOk https://github.com/mobilizeamerica/tindervote-getting-started/archive/master.zip && unzip master.zip && cd tindervote-getting-started-master && sh install.sh
+```
 
-3. Wait for about 15 seconds, and your web browser will open witn your access token in it.  Copy it and send it to us.
+3. Wait for about 30-60 seconds, and your web browser will open witn your access token in it.  Copy it and send it to us.
 
 
 ## Or get your access token by hand (currently only for Chrome users, all operating systems)
