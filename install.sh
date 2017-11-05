@@ -7,7 +7,7 @@ fi
 
 if ! command -v pipenv; then
   echo "pipenv not found, installing..."
-  pip install pipenv
+  sudo pip install pipenv
 fi
 
 pipenv install
