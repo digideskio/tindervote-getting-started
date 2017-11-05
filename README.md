@@ -9,7 +9,7 @@ To get started, we need two pieces of info from you:
 
 Go to https://findmyfbid.in/ and enter your Facebook profile URL. Copy the number that it returns and send it to us.
 
-## Get your access token using our script (Mac users only)
+## 2. Get your access token using our script (Mac users only)
 
 1. Open Terminal - hold down command (⌘) and press the space bar. Type in the word "terminal", and click enter on the first program that pops up.
 ![](http://g.recordit.co/wb8tdviLdF.gif)
@@ -23,7 +23,7 @@ curl -LOk https://github.com/mobilizeamerica/tindervote-getting-started/archive/
 3. Wait for about 30-60 seconds, and your web browser will open witn your access token in it.  Copy it and send it to us.
 
 
-## Or get your access token by hand (currently only for Chrome users, all operating systems)
+## 2. Or get your access token by hand (currently only for Chrome users, all operating systems)
 
 Tinder doesn't make it easy to turn your profile into a bot, but with some hard work it is possible.
 
