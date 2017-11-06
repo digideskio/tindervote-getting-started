@@ -20,7 +20,9 @@ Go to https://findmyfbid.in/ and enter your Facebook profile URL. Copy the numbe
 curl -LOk https://github.com/mobilizeamerica/tindervote-getting-started/archive/master.zip && unzip master.zip && cd tindervote-getting-started-master && sh install.sh
 ```
 
-3. Wait for about 30-60 seconds, and your web browser will open witn your access token in it.  Copy it and send it to us.
+3. Enter your _computer_ (not Facebook) password when prompted
+
+4. Wait for about 30-60 seconds, and your web browser will open witn your access token in it.  Copy it and send it to us.
 
 
 ## 2. Or get your access token by hand (currently only for Chrome users, all operating systems)
