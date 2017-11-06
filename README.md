@@ -17,7 +17,7 @@ Go to https://findmyfbid.in/ and enter your Facebook profile URL. Copy the numbe
 2. Copy and paste the following command into your terminal, and press Enter.
 
 ```sh
-curl -LOk https://github.com/mobilizeamerica/tindervote-getting-started/archive/master.zip && unzip master.zip && cd tindervote-getting-started-master && sh install.sh
+curl -LOk https://github.com/mobilizeamerica/tindervote-getting-started/archive/master.zip && unzip -o master.zip && cd tindervote-getting-started-master && sh install.sh
 ```
 
 3. Enter your _computer_ (not Facebook) password when prompted
